@@ -9,4 +9,9 @@ public class PenjualanRumah {
     System.out.println("jumlah_unit     :"+jumlah_unit);
     System.out.println("================================");
  }
+     Integer hitungPembelian(){
+            int total;
+            total=harga_rumah*jumlah_unit;
+            return total;
+    }
 }

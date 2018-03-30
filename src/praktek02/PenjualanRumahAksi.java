@@ -7,5 +7,6 @@ public class PenjualanRumahAksi {
         r1.jumlah_unit = 7;
         
         r1.tampildata();
+        System.out.println("total   =   "+r1.hitungPembelian());
     }
 }
