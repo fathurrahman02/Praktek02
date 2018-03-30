@@ -8,5 +8,6 @@ public class PenjualanRumahAksi {
         
         r1.tampildata();
         System.out.println("total   =   "+r1.hitungPembelian());
+        r1.cetaktotal();
     }
 }
