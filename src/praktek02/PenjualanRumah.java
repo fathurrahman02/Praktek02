@@ -2,6 +2,11 @@ package praktek02;
 public class PenjualanRumah {
     int harga_rumah;
     int jumlah_unit;
+
+    public PenjualanRumah(int harga_rumah, int jumlah_unit) {
+        this.harga_rumah = harga_rumah;
+        this.jumlah_unit = jumlah_unit;
+    }
     
      void tampildata(){
     System.out.println("================================");
@@ -13,5 +18,8 @@ public class PenjualanRumah {
             int total;
             total=harga_rumah*jumlah_unit;
             return total;
+    }
+         void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPembelian());
     }
 }
