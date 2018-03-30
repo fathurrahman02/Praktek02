@@ -5,5 +5,7 @@ public class PenjualanRumahAksi {
         PenjualanRumah r1 = new PenjualanRumah();
         r1.harga_rumah = 100000000;
         r1.jumlah_unit = 7;
+        
+        r1.tampildata();
     }
 }
