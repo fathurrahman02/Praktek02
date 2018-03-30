@@ -3,10 +3,18 @@ public class PenjualanRumah {
     int harga_rumah;
     int jumlah_unit;
 
+      public PenjualanRumah() {
+     harga_rumah=70000000;
+     jumlah_unit=2;
+     
+    }
+
     public PenjualanRumah(int harga_rumah, int jumlah_unit) {
         this.harga_rumah = harga_rumah;
         this.jumlah_unit = jumlah_unit;
     }
+      
+
     
      void tampildata(){
     System.out.println("================================");
